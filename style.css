@@ -1,0 +1,35 @@
+body {
+    background: #e79cc8;  
+    background: -webkit-linear-gradient(to right, #473246, #67B26F); 
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    
+}
+.My-Profile .card {
+    border-radius: 10px;
+}
+.My-Profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid rgb(138, 192, 236);
+    border-radius: 50%;
+}
+.My-Profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.My-Profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+.My-Profile .table th,
+.My-Profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
